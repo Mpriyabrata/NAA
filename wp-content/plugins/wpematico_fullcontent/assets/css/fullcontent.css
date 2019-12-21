@@ -1,0 +1,300 @@
+/*Full content Style*/
+#filename{
+	/*width:70% !important;*/
+}
+
+.input-fullcontent{
+	height: 60px !important;
+	font-size: 18px !important;
+	border-radius: 0px !important;
+}
+
+
+/*Editor Style*/
+#section_editor_area {
+    display: inline-flex;
+    width: 100%;
+}
+#fullcontent_editor{
+	width: 100%;
+}
+#section_editor_buttons{
+	width:100%;
+	height:300px;
+	display: flex;
+}
+div#fullcontent_buttons_editor{
+	width: 14.9%;
+	max-width: 120px;
+	height: 300px;
+	display: inline-flex;
+}
+div#fullcontent_buttons_editor ol{
+	list-style: none;
+	padding: 0px !important;
+	margin: 0px !important;
+	float: right;
+	width: 100%;
+}
+div#fullcontent_buttons_editor ol li{
+	margin: 0px !important;
+}
+div#fullcontent_buttons_editor ol li span span.dashicons , .fullcontent-buttons-top span a span.dashicons{
+	min-width: 50px;
+	margin: 0px auto;
+	font-size: 20px;
+}
+.fullcontent-buttons-top span a{
+	width: 120px !important;
+	text-align: center !important;
+}
+div#fullcontent_buttons_editor ol li span a.button,div#fullcontent_buttons_editor ol li a.button{
+	width: 100% !important;
+	max-width: 150px !important;
+	text-align: center !important;
+	height: 65px !important;
+	padding-top: 10px !important;
+}
+
+/*buttons editor style*/
+.fullcontent-saveass{
+	background-color:#C9452B !important; 
+	color:white !important; 
+	font-weight:bold !important; 
+	border:1px solid #8E3B2C !important; 
+	padding-top:8px !important;
+}
+.fullcontent-testurl{
+	padding-top:8px !important;
+}
+
+.savefile-fullcontent{
+	padding-top: 8px !important; 
+	font-weight: bold !important;
+}
+.preview_txt,.preview_uri{
+	padding-top: 8px !important;
+}
+
+/*fullsection messages style*/
+div#fullsection_messages{
+	background-color: #ececff;
+	min-height: 40px;
+	margin-top: 0px;
+	padding-left: 15px;
+	border-width: 3px;
+	border-style: double;
+	border-color: #9aa8b4;
+	padding-left:15px;
+}
+
+/*estatus message*/
+#statusmessage{
+	border:none !important;
+	background-color: transparent !important;
+	padding: 0px !important;
+	margin: 0px !important;
+	margin-top: -20px !important;
+	font-size: 1.4em !important;
+}
+#statusmessage p{
+	font-size:  1.4em !important;
+}
+#fullsection_messages #statusmessage , #fullsection_messages #savingas , #fullsection_messages #savemessage{
+	font-size: 1.4em !important;
+} 
+#fullsection_messages #savingas{
+	display: block;
+	position: relative;
+	margin-top: -10px !important;
+	font-weight: bold;
+}
+#statusmessage p{
+	padding: 0px !important;
+	margin: 0px !important;
+	font-size: 1.4em !important;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+	font-weight: bold;
+}
+
+#testtabs .tabNavigation {float: right;}
+#testtabs #titletext { float: left; padding-left:15px;}
+#testtabs #titletext p {
+	font-size: 1.3em;
+	margin: 0.5em 0.5em 0 0.5em;
+	font-weight: bold;
+}
+#testtabs .ui-tabs-anchor {font-size: 1.3em;}
+
+/*MEDIA QUERYS STYLE METABOX*/
+@media screen and (min-width: 200px){
+	.has-right-sidebar #post-body-content{
+		margin-right: 0px !important;
+	}
+	#section_editor_buttons{
+		width: 100% !important;
+		float: none !important;
+	}
+	#fullcontent_buttons_editor{
+		width: 100% !important;
+		height: auto !important;
+		margin-top: 0px !important;
+		max-width: 100% !important;
+	}
+	div#fullcontent_buttons_editor ol{
+		float: left !important;
+	}
+	div#fullcontent_buttons_editor ol li{
+		float: left !important;
+	}
+	div#side-info-column{
+		width: 100% !important;
+	}
+	div#side-sortables{
+		width: 100% !important;
+	}
+}
+
+@media screen and (min-width: 600px){
+	.has-right-sidebar #post-body-content{
+		margin-right: 0px !important;
+	}
+	#section_editor_buttons{
+		width: 100% !important;
+		float: none !important;
+		display: block;
+	}
+	#fullcontent_editor{
+		height: 230px;
+	}
+	div#fullcontent_buttons_editor{
+		width: 100% !important;
+		height: auto !important;
+		margin-top: 0px !important;
+		max-width: 100% !important;
+	}
+	div#fullcontent_buttons_editor ol{
+	}
+	#fullcontent_buttons_editor ol li span a	{
+		font-size: 1.2em !important;
+	}
+	#fullcontent_buttons_editor ol li{
+		float: left !important;
+		min-width: 100px;
+	}
+	div#side-info-column{
+		width: 100% !important;
+	}
+	div#side-sortables{
+		width: 100% !important;
+	}
+}
+
+@media screen and (min-width: 960px){
+	.has-right-sidebar #post-body-content{
+		margin-right: 300px !important;
+	}
+	#section_editor_buttons{
+		width: 100% !important;
+		display: flex;		
+	}
+	#fullcontent_editor{
+		height: 300px;
+	}
+
+	div#fullcontent_buttons_editor{
+		width: 14.9% !important;
+		height: 300px !important;
+		max-width: 120px !important;
+	}
+	div#fullcontent_buttons_editor ol{
+		float: none !important;
+	}
+	div#fullcontent_buttons_editor ol li{
+		float: none !important;
+	}
+	#fullcontent_buttons_editor ol li span a	{
+		font-size: 1.4em !important;
+	}
+	div#side-info-column{
+		width: 281px !important;
+	}
+	div#side-sortables{
+		width: 281px !important;
+	}
+}
+
+/*#####################################clear float elements###################################*/
+.clear-fix:after{content:"";display:block;height:0;clear:both;visibility:hidden;}
+.clear-fix{display:inline-block;}
+.clear-fix{display:block;}
+html .clear-fix{height:1px;}
+
+
+.wfc_tag {
+	font-weight: bold;
+} 
+
+a{color: #999; text-decoration:none;}
+a:hover{text-decoration:underline;}
+.addfile:before{content: "\271A";}
+.play:before{ content: "\25B6"; }
+.spinner {
+	float: left;
+	background-size: 12px;
+	height: 12px;
+	width: 12px;
+	margin: 5px 5px 0 0;
+}
+#saving .spinner ,#fullsection_messages #section_spinner .spinner{
+	float: none;
+	background-size: 20px;
+	height: 20px;
+	width: 20px;
+	margin: 3px;
+	margin-top: 10px !important;
+}
+
+#section_spinner{
+	float: left; 
+	width: 30px;
+	min-height: 40px;
+	margin-top: -12px;
+	position: relative;
+	vertical-align: center;
+
+}
+
+#savemessage, #savingas {
+	font-weight: bold;
+}
+#savemessage.notice-success {
+	color: green;
+}
+#savemessage.notice-error, #savingas {
+	color: red;
+}
+input{ border:0;font: 9pt Monospace,'Courier New'; }
+input:hover{ cursor: pointer; }
+#filename {
+	font-weight: bold;
+	cursor: default;
+}
+textarea[name="textfile"] { color:#fff;background-color:#111;border:0; font: 10pt Monospace,'Courier New'; }
+hr {border:1px solid #333;}
+
+#visual img {
+	max-width: 100%;
+	height: auto;
+}
+/* Tabs
+----------------------------------*/
+.ui-tabs { position: relative; padding: .2em; zoom: 1; } /* position: relative prevents IE scroll bug (element with position: relative inside container with overflow: auto appear as "fixed") */
+.ui-tabs .ui-tabs-nav { margin: 0; padding: .2em .2em 0; }
+.ui-tabs .ui-tabs-nav li { list-style: none; float: left; position: relative; top: 1px; margin: 0 .2em 1px 0; border-bottom: 0 !important; padding: 0; white-space: nowrap; }
+.ui-tabs .ui-tabs-nav li a { float: left; padding: .5em 1em; text-decoration: none; }
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected { margin-bottom: 0; padding-bottom: 1px; }
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .ui-tabs .ui-tabs-nav li.ui-state-disabled a, .ui-tabs .ui-tabs-nav li.ui-state-processing a { cursor: text; }
+.ui-tabs .ui-tabs-nav li a, .ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a { cursor: pointer; } /* first selector in group seems obsolete, but required to overcome bug in Opera applying cursor: text overall if defined elsewhere... */
+.ui-tabs .ui-tabs-panel { display: block; border-width: 0; padding: 1em 1.4em; background: none; }
+.ui-tabs .ui-tabs-hide { display: none !important; }	

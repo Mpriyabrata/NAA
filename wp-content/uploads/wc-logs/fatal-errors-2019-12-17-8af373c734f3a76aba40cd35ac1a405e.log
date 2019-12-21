@@ -1,0 +1,19 @@
+2019-12-17T14:06:55+00:00 CRITICAL Uncaught Error: Call to undefined method WooCommerce::initialize_session() in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woo-gutenberg-products-block/src/RestApi.php:74
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(288): Automattic\WooCommerce\Blocks\RestApi::maybe_init_cart_session(NULL)
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(206): WP_Hook->apply_filters(NULL, Array)
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-includes/rest-api/class-wp-rest-server.php(135): apply_filters('rest_authentica...', NULL)
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-includes/rest-api/class-wp-rest-server.php(326): WP_REST_Server->check_authentication()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-includes/rest-api.php(305): WP_REST_Server->serve_request('/jetpack/v4/jit...')
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(288): rest_api_loaded(Object(WP))
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woo-gutenberg-products-block/src/RestApi.php on line 74
+
+2019-12-17T14:08:26+00:00 CRITICAL Uncaught Error: Class 'ActionScheduler_AdminView_Deprecated' not found in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:7
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler.php(71): include()
+#1 [internal function]: ActionScheduler::autoload('ActionScheduler...')
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler.php(32): spl_autoload_call('ActionScheduler...')
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler.php(95): ActionScheduler::admin_view()
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/action-scheduler.php(44): ActionScheduler::init('/opt/bitnami/ap...')
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugi in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php on line 7
+

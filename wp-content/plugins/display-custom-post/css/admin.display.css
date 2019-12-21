@@ -1,0 +1,75 @@
+/*
+ * Display Custom Post WordPress Plugin CSS For Settings Page
+*/  
+ 
+/* 
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+.dash-area {
+    float: left;
+    width: 98%;
+    position: relative;
+    padding: 20px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    background-color: #ffffff;
+    margin-top: 20px;
+    padding-bottom: 31px;
+}
+.offers {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.dash-area h1 {
+  color: #405e77;
+}
+#dropdown_selector {
+  min-width: 20%;
+  margin-bottom: 20px;
+  width: 200px;
+  margin-bottom: 10px;
+}
+input#showoption {
+    width: 221px;
+    height: 31px;
+    line-height: 35px;
+}
+.dash-area h1 {
+    color: #405e77;
+    font-size: 21px;
+    line-height: 27px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+input#dcp_shortcode {
+  float: left;
+  clear: both;
+  margin: 20px 0;
+  width: 20%;
+}
+.offers:hover{
+	opacity: 0.9; 
+} 
+a#mysubmit {
+  background-color: #405e77;
+  border-radius: 3px;
+  -moz-border-radius: 3px;  
+  -webkit-border-radius: 3px;
+  color: #fff;
+  padding: 10px 15px;
+  float: left;
+}
+.infobox {
+    font-size: 16px;
+    line-height: 29px;
+    margin-top: 25px;
+}
+span.highlighted {
+    color: #405e77;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+}
