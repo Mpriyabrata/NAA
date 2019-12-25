@@ -1,7 +1,4 @@
 <?php
-/** Enable W3 Total Cache */
-define( 'WPCACHEHOME', '/opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/wp-super-cache/' );
-define('WP_CACHE', true); // Added by W3 Total Cache
 
 /**
  * The base configuration for WordPress
@@ -21,6 +18,7 @@ define('WP_CACHE', true); // Added by W3 Total Cache
  *
  * @package WordPress
  */
+
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 define( 'DB_NAME', 'notesandall' );
@@ -40,8 +38,8 @@ define( 'WP_MEMORY_LIMIT', '128M' );
 define( 'WP_MAX_MEMORY_LIMIT', '256M' );
 define( 'AS3CF_SETTINGS', serialize( array(
 	    'provider' => 'aws',
-	        'access-key-id' => 'AKIAITIGKCYSKUR2YFOQ',
-		    'secret-access-key' => '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',
+	        'access-key-id' => 'AKIAXDE4TVRC2ZBG4EPU',
+		    'secret-access-key' => '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',
 	    ) ) );
 set_time_limit(300);
 /**#@+
@@ -83,7 +81,12 @@ $table_prefix = 'wp_';
  */
 define( 'WP_DEBUG', false );
 /* That's all, stop editing! Happy publishing. */
+define('W3TC_SKIPLIB_AWS', true);
 define('FS_METHOD', 'direct');
+
+/** Enable W3 Total Cache */
+define('WP_CACHE', true); // Added by W3 Total Cache
+
 /**
  * The WP_SITEURL and WP_HOME options are configured to access from any hostname or IP address.
  * If you want to access only from an specific domain, you can modify them. For example:

@@ -3,7 +3,7 @@ Contributors: etruel, sniuk, khaztiel
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=B8V39NWK3NFQU
 Tags: RSS,XML,RSS to Post,Feed to Post,XML to post,autoblog,rss aggregator,Feed,rss to post,syndication,xml import,Post,Posts,aggregation,atom,bot,content,writing
 Requires at least: 4.1
-Tested up to: 5.3
+Tested up to: 5.3.2
 Requires PHP: 5.3
 Stable tag: trunk
 License: GPLv2 or later
@@ -225,6 +225,10 @@ You can send your files to e-mail wpematico [at] etruel.com
 
 == Changelog ==
 
+= 2.5.1 Dec 22, 2019 =
+
+Fixes a problem when sanitize keys on licenses page and tweaks the style just for the About screen. 
+
 = 2.5 Dec 11, 2019 =
 
 Version 2.5 concludes a series of radical changes that we had started since version 2.4 in terms of plugin security. Also following a strict revision to follow the standards of Wordpress coding development.
@@ -350,6 +354,5 @@ For the changelog of earlier versions, please refer to [the changelog on wpemati
 
 == Upgrade Notice ==
 
-= 2.5 =
-* **A major update. Test it in development enviroments before use for in production websites**
-* We fixed many issues and improved lot of features based on WP feedback. Thanks for helping us out!
+= 2.5.1 =
+* Fixes a problem when sanitize keys on licenses page and tweaks the style just for the About screen. 

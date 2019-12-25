@@ -1,5 +1,5 @@
 <?php exit; ?>{
-    "version": "0.11.0",
+    "version": "0.12.0",
     "cluster.messagebus.debug": false,
     "cluster.messagebus.enabled": false,
     "cluster.messagebus.sns.region": "",
@@ -380,7 +380,7 @@
         "{plugins_dir}\/*.jpg",
         "{plugins_dir}\/*.png"
     ],
-    "cdn.import.files": false,
+    "cdn.import.files": "",
     "cdn.queue.interval": 900,
     "cdn.queue.limit": 25,
     "cdn.force.rewrite": false,
@@ -424,11 +424,11 @@
     "cdn.cf.id": "",
     "cdn.cf.cname": [],
     "cdn.cf.ssl": "auto",
-    "cdn.cf2.key": "",
-    "cdn.cf2.secret": "",
-    "cdn.cf2.id": "",
+    "cdn.cf2.key": "AKIAXDE4TVRC2ZBG4EPU",
+    "cdn.cf2.secret": "3\/HkC5oU58+Mvfk4mAwM26s\/+cFuerFHq8mm84PB",
+    "cdn.cf2.id": "d381xesygru4j8",
     "cdn.cf2.cname": [],
-    "cdn.cf2.ssl": "",
+    "cdn.cf2.ssl": "auto",
     "cdn.rscf.user": "",
     "cdn.rscf.key": "",
     "cdn.rscf.location": "us",
@@ -492,8 +492,12 @@
     "cdn.stackpath2.ssl": "auto",
     "cdn.reject.admins": false,
     "cdn.reject.logged_roles": false,
-    "cdn.reject.roles": [],
-    "cdn.reject.ua": [],
+    "cdn.reject.roles": [
+        ""
+    ],
+    "cdn.reject.ua": [
+        ""
+    ],
     "cdn.reject.uri": [],
     "cdn.reject.files": [
         "{uploads_dir}\/wpcf7_captcha\/*",
@@ -852,7 +856,6 @@
             ]
         }
     },
-    "common.support": "",
     "common.track_usage": true,
     "common.tweeted": false,
     "config.check": true,
@@ -880,9 +883,15 @@
         "fragmentcache": "w3-total-cache\/Extension_FragmentCache_Plugin.php"
     },
     "extensions.active_frontend": [],
+    "extensions.active_dropin": [],
     "plugin.license_key": "",
     "plugin.type": "",
+    "common.support": "",
     "fragmentcache": {
         "engine": ""
+    },
+    "pgcache.bad_behavior_path": "",
+    "newrelic": {
+        "monitoring_type": "apm"
     }
 }
